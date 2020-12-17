@@ -88,21 +88,16 @@ module.exports = config;
 ### :computer: Instalando e executando
 
 
-1. Navegue no terminal até a pasta principal do projeto em seguinda instale os pacotes NPM.
-Obs.:A maioria dos arquivos da pasta node.modules já está nesse repositório porque estava dando erros na instalação.
+1. Navegue no terminal até a pasta principal do projeto e em seguinda execute o servidor.
 
 ```sh
 $ cd 'nomedapasta'
-$ npm install
-```
-
-2. Após o termino da instalação dos módulos, rode o servidor.
-
-```sh
 $ npm start
 ```
+OBS.: Devido a erro na instalação de módulos com o comando 'npm install' em outras máquinas, foi feito o upload da pasta node.modules
+nesse repositório.
 
-3. Abra o browser http://localhost:3000/.
+2. Abra o browser http://localhost:3000/.
 
 ### :rocket: Utilizando a Aplicação WEB
 
